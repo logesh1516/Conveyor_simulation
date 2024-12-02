@@ -1,11 +1,26 @@
 # Conveyor_simulation
-Custom Conveyor simulation for ROS2 humble
+**Custom Conveyor simulation for ROS2 humble**
 
-The conveyor model in this repository is based on the work developed by the IFRA (Intelligent Flexible Robotics and Assembly) Group, part of the Centre for Robotics and Assembly at Cranfield University.
+This project is a simulation of a conveyor belt system, designed for use in robotic automation, industrial applications, and research purposes. The model includes features such as conveyor motion, sensors for object detection, and integration with ROS 2 and Gazebo classic.
 
-The IFRA Group pushes technical boundaries by providing high-tech automation and assembly solutions, supporting smart manufacturing with Smart Industry technologies and solutions. Their work in Flexible Manufacturing Systems (FMS) has been instrumental in driving the transition towards flexible, intelligent, and responsive automation systems.
+**Overview**
 
-This repository includes an improved version of the conveyor model originally developed by the IFRA Group. The enhancements build upon their innovative research and dedication to designing Intelligent, Responsive, and Flexible automation solutions.
+This project is an improved version of the conveyor model developed by the IFRA (Intelligent Flexible Robotics and Assembly) Group, part of the Centre for Robotics and Assembly at Cranfield University. It integrates a realistic conveyor simulation into Gazebo and ROS 2 environments, supporting various research and industrial applications.
 
+**Features**
+
+Realistic Conveyor Motion: Simulates belt movement for transporting objects.
+Sensor Integration: Includes IR sensors for object detection.
+ROS 2 Support: Compatible with ROS 2 for easy integration with robotic systems.
+Gazebo Integration: Fully functional in Gazebo for visualization and testing.
+Interactive Object Spawner: Use the summoner.py script to spawn objects dynamically.
+
+**Installation**
+```sh
+cd ~/colcon_ws/src
+git clone https://github.com/IFRA-Cranfield/IFRA_ConveyorBelt.git
+cd ~/dev_ws
+colcon build
+```
 
 
