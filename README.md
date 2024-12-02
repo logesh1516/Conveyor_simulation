@@ -53,8 +53,9 @@ I have created a python script to spawn multiple objects over the conveyor.
 Each object can be spawned only once.
 
 ```sh
-cd ~/colcon_ws/src/Conveyor_simulation/ros2_conveyorbelt/python
+cd colcon_ws
 source install/setup.bash
+cd ~/src/Conveyor_simulation/ros2_conveyorbelt/python
 python3 summoner.py
 ```
 **Simulation of the conveyor**
